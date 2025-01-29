@@ -1,0 +1,1046 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    /* overflow-x: hidden; */
+}
+
+@font-face {
+    font-family: UnicaOne;
+    src: url(UnicaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+.content {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    background-color: #141415;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+.menuList {
+    list-style: none;
+    font-size: 20px;
+}
+
+#logo {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.cover {
+    background-image: url(../media/cover.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.coverDetails {
+    position: absolute;
+    right: 50px;
+    bottom: 35px;
+    color: white;
+    background-color: rgba(20, 20, 21, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 5px;
+    width: 30%;
+    padding: 20px;
+    border-radius: 30px;
+    line-height: 25px;
+}
+
+.coverDetails h1 {
+    font-family: UnicaOne;
+    padding: 20px;
+    border-bottom: 0.5px solid #a28460;
+}
+
+.coverDetails p {
+    padding: 20px;
+    font-family: Montserrat;
+}
+
+.coverDetails h4 {
+    font-family: UnicaOne;
+    color: #a28460;
+}
+
+.menuList li {
+    color: white;
+    border-top: .2px solid #313539;
+    font-family: UnicaOne;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#contacts {
+    border-bottom: .2px solid #313539;
+}
+
+#home {
+    color: #a28460
+}
+
+#about {
+    color: #a28460
+}
+
+#contact {
+    color: #a28460
+}
+
+#menu {
+    color: #a28460
+}
+
+/* .nav {
+    color: white;
+} */
+
+.nav:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: #a28460;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* .nav:active {
+    color: #a28460;
+    background-color: transparent;
+    text-decoration: underline;
+} */
+
+#addiction {
+    font-family: Montserrat;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.details p {
+    line-height: 28px;
+    font-family: UnicaOne;
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    color: #aaa9a9;
+    text-align: justify;
+}
+
+.details {
+    color: white;
+    background-color: #313539;
+    display: flex;
+    align-items: center;
+}
+
+#addictionImage {
+    height: 100%;
+}
+
+#h3 {
+    font-family: UnicaOne;
+    color: #a28460;
+    border-bottom: 0.5px solid #a28460;
+}
+
+#addictionPictures {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 200px;
+    width: 20px;
+}
+
+.leftDetails {
+    z-index: 1;
+    display: block;
+    align-items: center;
+    position: relative;
+    top: -120px;
+    left: 70px;
+    height: 500px;
+}
+
+.main {
+    margin-left: 300px;
+}
+
+.details2 {
+    color: white;
+    background-image: linear-gradient(to right, #4a5157, #24292d, #2b3136);
+    background-size: 100%;
+    height: 600px;
+}
+
+.details2 h4 {
+    font-family: UnicaOne;
+    color: #a28460;
+    padding-top: 5px;
+}
+
+.details2 h1 {
+    font-family: UnicaOne;
+    border-bottom: 0.5px solid #a28460;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.comfortFoods {
+    width: 90%;
+    position: relative;
+    left: 70px;
+}
+
+.comfortFoods p {
+    font-family: UnicaOne;
+    position: relative;
+    text-align: center;
+    left: -50px;
+    top: 50px;
+    line-height: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid img {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    height: 300px;
+    width: 450px;
+}
+
+#footer {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: #313539;
+    background-image: url(../media/footerLogo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 400px;
+    background-position-y: center;
+    width: 100%;
+    height: 150px;
+}
+
+.blackScoopContainer {
+    background-image: url(../media/blackscoop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.blackScoopDetails {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+}
+
+.blackScoopDetails h1 {
+    font-size: 50px;
+    font-family: UnicaOne;
+}
+
+.blackScoopDetails h2 {
+    border-bottom: 1px solid#a28460;
+    width: 30%;
+    position: relative;
+    top: -15px;
+    left: 35%;
+}
+
+.blackScoopDetails p {
+    font-size: 20px;
+    font-family: Montserrat;
+    position: relative;
+    /* top: 15px; */
+    line-height: 30px;
+}
+
+#blackScoopTexts {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    color: white;
+    position: relative;
+    left: 24%;
+    top: 40%;
+    width: 40%;
+    padding: 30px 20px 30px 20px;
+}
+
+#section1 {
+    background-color: #24292d;
+}
+
+#section2 {
+    background-color: #313539;
+}
+
+#section3 {
+    background-color: #24292d;
+}
+
+.aboutContainer {
+    display: flex;
+    /* align-items: center; */
+}
+
+.aboutDetails {
+    position: relative;
+    top: 80px;
+    left: 90px;
+    width: 35%;
+    height: 50%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px 3px rgba(162, 132, 96, 0.1);
+    padding: 30px;
+}
+
+.aboutContainer img {
+    width: 801px;
+    height: 650px;
+    margin-bottom: -4px;
+}
+
+.aboutRight img {
+    position: relative;
+    right: -181px;
+}
+
+.aboutDetails h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: UnicaOne;
+    color: #a28460;
+}
+
+.aboutTitle {
+    padding-bottom: 5px;
+    letter-spacing: 15px;
+    font-family: Montserrat;
+    color: white;
+    border-bottom: 1px solid #a28460;
+}
+
+.aboutDetails p {
+    color: #aaa9a5;
+    font-family: Montserrat;
+    line-height: 25px;
+}
+
+.aboutRight {
+    text-align: right;
+}
+
+.aboutLeft {
+    text-align: left;
+}
+
+.contactUsDetails {
+    display: flex;
+    text-align: center;
+}
+
+#contactUsTextDetails {
+    color: white;
+    background-color: #24292d;
+    width: 100%;
+}
+
+.contactUsDetails img {
+    height: 819px;
+    margin-bottom: -4px;
+}
+
+#contactUsTextDetails h1 {
+    font-family: UnicaOne;
+    border-bottom: 1px solid #a28460;
+    padding-bottom: 10px;
+}
+
+#contactUsTextDetails p {
+    font-family: Montserrat;
+    color: #a28460;
+    padding-top: 10px;
+}
+
+#get,
+#questions {
+    position: relative;
+    top: 10%;
+}
+
+.inputs {
+    position: relative;
+    line-height: 70px;
+    top: 150px;
+}
+
+.inputs [type=text] {
+    color: white;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border: 2px solid #a28460;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2e3135;
+    padding: 12px 20px 12px 40px;
+}
+
+.msg {
+    position: relative;
+    line-height: 150px;
+    top: 150px;
+}
+
+.msg [type=text] {
+    color: white;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border: 2px solid #a28460;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2e3135;
+    height: 100px;
+    width: 66%;
+    padding: 12px 20px 12px 40px;
+}
+
+.submit {
+    cursor: pointer;
+    line-height: 50px;
+    width: 50%;
+    position: relative;
+    top: 170px;
+}
+
+button:hover {
+    background-color: #2e3135;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.submit button {
+
+    color: #a28460;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: Montserrat;
+    padding: 20px 60px 20px 60px;
+
+}
+
+#galleryHeader {
+    background-color: #313539;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: UnicaOne;
+    font-size: 20px;
+}
+
+.galleryContainer img {
+    height: 400px;
+    width: 397.5px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-areas: "First First First" "Second Second Second" "Third Third Third" "Fourth Fourth Fourth";
+}
+
+#firstGallery {
+    background-color: #313539;
+    grid-area: First;
+}
+
+#secondGallery {
+    background-color: #313539;
+    grid-area: Second;
+}
+
+#thirdGallery {
+    background-color: #313539;
+    grid-area: Third;
+}
+
+#fourthGallery {
+    background-color: #313539;
+    grid-area: Fourth;
+}
+
+.topGalleryContainer {
+    background-image: url(../media/foods.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+}
+
+.topGalleryDetails {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+}
+
+.topGalleryDetails h1 {
+    font-size: 50px;
+    font-family: UnicaOne;
+}
+
+.topGalleryDetails h2 {
+    border-bottom: 1px solid#a28460;
+    width: 30%;
+    position: relative;
+    top: -15px;
+    left: 35%;
+}
+
+.topGalleryDetails p {
+    font-size: 20px;
+    font-family: Montserrat;
+    position: relative;
+    /* top: 15px; */
+    line-height: 30px;
+}
+
+#topGalleryTexts {
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    color: white;
+    position: relative;
+    left: 27%;
+    top: 30%;
+    width: 40%;
+    padding: 30px 20px 30px 20px;
+}
+
+.midGalleryContainer {
+    background-color: #24292d;
+    line-height: 25px;
+}
+
+#firstGallerySection {
+    background-color: #2b3136;
+    padding: 30px 0 30px 60px;
+}
+
+#secondGallerySection {
+    background-color: #313539;
+    padding: 30px 0 30px 60px;
+}
+
+#thirdGallerySection {
+    background-color: #2b3136;
+    padding: 30px 0 30px 60px;
+}
+
+.midTextsGallery h1 {
+    color: white;
+    font-family: UnicaOne;
+    font-size: 45px;
+    justify-content: center;
+    border-bottom: 1px solid#a28460;
+    padding-bottom: 20px;
+}
+
+#menus {
+    color: white;
+    font-family: UnicaOne;
+    font-size: 27px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#menusDescription {
+    color: #a28460;
+    font-family: Montserrat;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.midSectionsGallery {
+    display: flex;
+}
+
+#gallerySectionImages img {
+    height: 60vh;
+    width: 65vh;
+    margin-top: -30px;
+    margin-bottom: -37px;
+    padding-left: 30px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1629px) {
+    .grid img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .aboutRight img {
+        width: 620px;
+    }
+
+    .aboutRight {
+        margin-right: 110px;
+    }
+
+    .main {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .details {
+        height: 900px;
+    }
+
+    .coverDetails h1 {
+        font-size: 28px;
+    }
+
+    .coverDetails p {
+        font-size: 15px;
+    }
+
+    #addiction {
+        font-size: 23px;
+    }
+
+    .leftDetails p {
+        font-size: 18px;
+    }
+
+    #addictionPictures {
+        height: 100px;
+    }
+
+    .grid img {
+        width: 220px;
+        height: 160px;
+    }
+
+    #addictionImage {
+        height: 500px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    /* about us */
+    .aboutTitle {
+        font-size: 15px;
+    }
+
+    .aboutSubtitle {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .aboutRight img {
+        height: 550px;
+    }
+
+    .aboutLeft img {
+        height: 550px;
+        width: 600px;
+    }
+
+    .aboutDetails {
+        top: 10px;
+    }
+}
+
+@media screen and(max-width: 1048px) {
+    .details {
+        height: 1100px;
+    }
+
+    .leftDetails p {
+        font-size: 1px;
+    }
+}
+
+
+/* @media screen and(max-width: 1081px){
+    
+    .grid img{
+        width: 50px;
+        height: 00px;
+    }
+} */
+
+@media screen and (max-width: 950px) {
+    .coverDetails h1 {
+        font-size: 20px;
+    }
+
+    .coverDetails p {
+        font-size: 12px;
+    }
+
+    .content {
+        width: 250px;
+    }
+
+    .main {
+        margin-left: 250px;
+    }
+
+    #logo {
+        height: 120px;
+    }
+
+    .grid img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .details2 {
+        height: 700px;
+    }
+
+    .details {
+        height: 1300px;
+    }
+
+    .leftDetails {
+        top: -380px;
+    }
+
+    /* about */
+    .aboutRight img {
+        /* left: -50px; */
+        height: 300px;
+        width: 400px;
+        left: 80px;
+    }
+
+    .aboutLeft img {
+        right: 100px;
+        height: 300px;
+        width: 300px;
+        padding: 0;
+    }
+
+    .aboutDetails {
+        width: 100%;
+    }
+
+    .aboutLeft {
+        left: 0;
+    }
+
+    .blackScoopDetails p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .coverDetails h1 {
+        font-size: 15px;
+    }
+
+    .coverDetails p {
+        font-size: 10px;
+    }
+
+    .comfortFoods p {
+        font-size: 13px;
+    }
+
+    .grid img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .details2 {
+        height: 600px;
+    }
+
+    .details {
+        height: 850px;
+    }
+
+    .leftDetails {
+        top: 20px;
+        height: 800px;
+    }
+
+    #addictionPictures {
+        width: 600px;
+    }
+
+    #addiction {
+        font-size: 15px;
+    }
+
+    #addictionImage {
+        height: 0px;
+    }
+
+    .leftDetails p {
+        font-size: 13px;
+        width: 350px;
+    }
+
+    #h3 {
+        width: 350px;
+    }
+
+    .comfortFoods h1 {
+        width: 350px;
+    }
+
+    * {
+        overflow-x: hidden;
+    }
+
+    .comfortFoods {
+        top: 50px;
+        height: 800;
+    }
+
+    .footer {
+        background-size: 250px;
+    }
+
+    /* about */
+    .aboutRight img {
+        /* left: -50px; */
+        height: 0px;
+    }
+
+    .aboutLeft img {
+        height: 0;
+    }
+
+    .aboutLeft {
+        left: 0;
+    }
+
+    .blackScoopDetails p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .grid img {
+        width: 300px;
+        height: 230px;
+        display: block;
+    }
+
+    .coverDetails p {
+        font-size: 8px;
+    }
+
+    .coverDetails h4 {
+        font-size: 10px;
+    }
+
+    .leftDetails {
+        left: 10px;
+        width: 270px;
+    }
+
+    #h3 {
+        width: 250px;
+    }
+
+    .comfortFoods h4 {
+        font-size: 13px;
+    }
+
+    .comfortFoods {
+        top: -40px;
+        left: 10px;
+    }
+
+    .comfortFoods {
+        height: 480px;
+        left: 50px
+    }
+
+    .details2 {
+        height: 480px;
+    }
+
+    .grid img {
+        width: 130px;
+        height: 70px;
+    }
+
+    .grid {
+        width: 500px;
+        /* height: 450px; */
+    }
+
+    .comfortFoods p {
+        font-size: 10px;
+    }
+
+    .content {
+        width: 200px;
+    }
+
+    .main {
+        margin-left: 200px;
+    }
+
+    .comfortFoods h1 {
+        font-size: 18px;
+    }
+
+    .aboutDetails .aboutRight {
+        padding: 0px 0px 0px 0px;
+        width: 1000px;
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        margin-right: 500px;
+    }
+
+    .aboutDetails .aboutLeft {
+        padding: 0px 0px 0px 0px;
+        /* width: 1000px; */
+        margin: 0px 0px 0px 0px;
+        /* margin-left: 500px; */
+    }
+
+    .aboutContainer {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 500px;
+    }
+
+    .aboutDetail1 {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 450px) {
+        .grid img {
+            width: 300px;
+            height: 230px;
+            display: block;
+        }
+
+        .coverDetails p {
+            font-size: 8px;
+        }
+
+        .coverDetails h4 {
+            font-size: 10px;
+        }
+
+        .leftDetails {
+            left: 10px;
+            width: 270px;
+        }
+
+        #h3 {
+            width: 250px;
+        }
+
+        .comfortFoods h4 {
+            font-size: 13px;
+        }
+
+        .comfortFoods {
+            top: -40px;
+            left: 10px;
+        }
+
+        .comfortFoods {
+            height: 480px;
+            left: 50px
+        }
+
+        .details2 {
+            height: 480px;
+        }
+
+        .grid img {
+            width: 130px;
+            height: 70px;
+        }
+
+        .grid {
+            width: 500px;
+            /* height: 450px; */
+        }
+
+        .comfortFoods p {
+            font-size: 10px;
+        }
+
+        .content {
+            width: 150px;
+        }
+
+        .main {
+            margin-left: 150px;
+        }
+
+        .menuList {
+            font-size: 15px;
+        }
+
+        #logo {
+            height: 80px;
+        }
+
+        .footer {
+            background-size: 230px;
+        }
+
+        .comfortFoods h1 {
+            font-size: 18px;
+        }
+    }
+}
